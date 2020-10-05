@@ -1,11 +1,26 @@
 function minimum(a,b){ 
 
     if(a==b){
-        console.log(a +"a la même valeur que  "+b));
+        console.log(b));
     
     }else if(a<b) {
-        console.log("le plus petit element est "+a);
+        console.log(a);
     
     } else{
-        console.log("le plus petit element est "+b);
+        console.log(+b);
     } }
+
+
+
+
+    function maximum(a,b){ 
+
+        if(a==b){
+            console.log(b);
+        
+        }else if(a>b) {
+            console.log(a);
+        
+        } else{
+            console.log(b);
+        } }
