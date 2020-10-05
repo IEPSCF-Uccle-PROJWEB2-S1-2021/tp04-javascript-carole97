@@ -26,7 +26,7 @@ function minimum(a,b){
         } }
 
         function reduce(numbers, fn) {
-            let result = numbers[4];
+            let result = numbers[2];
             let ancienResult;
             if (numbers.length <= 1) {
                 return null
