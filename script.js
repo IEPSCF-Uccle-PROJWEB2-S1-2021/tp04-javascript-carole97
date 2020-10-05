@@ -24,3 +24,22 @@ function minimum(a,b){
         } else{
             console.log(b);
         } }
+
+        function reduce(numbers, fn) {
+            let result = numbers[4];
+            let ancienResult;
+            if (numbers.length <= 1) {
+                return null
+              }
+              if (numbers.length == 2) {
+                resultat = fn(numbers[0], numbers[1]);
+              }
+            
+              for (let i = 2; i < numbers.length; i++) {
+                ancienResult = fn(result, numbers[i]);
+                result = ancienResult;
+              }
+              return result;
+            }
+        }
+        
