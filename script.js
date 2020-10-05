@@ -41,5 +41,10 @@ function minimum(a,b){
               }
               return result;
             }
-        }
         
+        
+
+        
+const myTestNumbers = [5, 8, 13, 21, 34, 610, 55, 3, 89, 144, 233, 377];
+console.log(reduce(myTestNumbers, minimum));
+console.log(reduce(myTestNumbers, maximum));
